@@ -66,21 +66,11 @@ The repository includes `Sales_Data.xlsx` as the source dataset for the Power BI
 
 ## Tools & skills
 
-- **Power BI Desktop** — interactive report development
+- **Power BI Desktop** — interactive report development and dashboard design
 - **Power Query** — data preparation and transformation
 - **DAX** — measures and KPI calculations
 - **Microsoft Excel** — source data
-
-Skills demonstrated:
-
-- Sales analytics
-- KPI reporting
-- Revenue and profitability analysis
-- Product and channel analysis
-- Regional analysis
-- Trend analysis
-- Interactive dashboard design
-- Data visualization and data storytelling
+- **Analytics skills** — sales analytics, KPI reporting, revenue and profitability analysis, product and channel analysis, regional analysis, trend analysis, data visualization, and data storytelling
 
 ## Repository structure
 
