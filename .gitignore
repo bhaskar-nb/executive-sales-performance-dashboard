@@ -1,0 +1,13 @@
+@"
+# Temporary Excel files
+~`$*.xlsx
+~`$*.xls
+~`$*.xlsm
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# macOS files
+.DS_Store
+"@ | Set-Content .gitignore
