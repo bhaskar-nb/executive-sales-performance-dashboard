@@ -1,99 +1,98 @@
-# Executive Sales Performance Dashboard
+# Executive Sales Performance Dashboard | Power BI
 
-An interactive Power BI dashboard designed to analyze sales performance, revenue trends, gross profitability, product performance, sales channels, and regional contributions.
+An executive-style **Power BI sales dashboard** for monitoring revenue, gross profit, margin, sales volume, order count, product performance, channels, and regional results.
 
-## Dashboard Preview
+## Dashboard preview
 
 <p align="center">
-  <img src="Executive Sales Performance Dashboard.png" alt="Executive Sales Performance Dashboard" width="100%">
+  <img src="Executive Sales Performance Dashboard.png" alt="Executive Sales Performance Dashboard in Power BI" width="100%">
 </p>
 
-## Project Overview
+## Project overview
 
-This project provides an executive-level overview of sales performance through interactive KPIs and visualizations. It helps users explore revenue trends, evaluate gross profit and margins, identify top-performing products, and compare sales across channels and regions.
+This project brings core sales KPIs and comparative visuals into one report so a user can review overall performance, explore time trends, and compare products, channels, and regions.
 
-## Business Objectives
+## Key performance indicators
 
-- Monitor overall revenue and gross profit.
-- Track gross margin to understand profitability.
-- Analyze monthly revenue and gross profit trends.
-- Identify the top 10 products by revenue.
-- Compare gross margins across sales channels.
-- Evaluate revenue contribution across regions.
-- Enable interactive analysis by quarter, month, product category, and country.
-
-## Key Performance Indicators
-
-| KPI | Value |
+| KPI | Dashboard value |
 |---|---:|
-| Total Revenue | 645.22K |
-| Total Gross Profit | 296.38K |
-| Gross Margin | 45.94% |
-| Total Quantity | 6,698 |
-| Total Orders | 2,707 |
+| Total Revenue | **645.22K** |
+| Total Gross Profit | **296.38K** |
+| Gross Margin | **45.94%** |
+| Total Quantity | **6,698** |
+| Total Orders | **2,707** |
 
-*The values above reflect the dashboard view shown in the preview and may change when filters are applied.*
+> Values above reflect the dashboard preview state. Slicer selections can change the displayed results. Currency/scale formatting follows the report; confirm the currency and units in Power BI before interpreting these values externally.
 
-## Dashboard Features
+## Dashboard analysis
 
-### 1. Monthly Revenue & Gross Profit
-A monthly trend chart comparing revenue and gross profit to help identify changes in sales performance throughout the year.
+### Monthly Revenue & Gross Profit
+Compares monthly revenue with gross profit to help spot changes in sales performance and profitability over time.
 
-### 2. Sales by Channel
-A doughnut chart showing the revenue contribution of each sales channel.
+### Sales by Channel
+Shows how revenue is distributed across sales channels.
 
-### 3. Top 10 Products by Revenue
-A horizontal bar chart ranking products by revenue to highlight the strongest contributors to sales.
+### Top 10 Products by Revenue
+Ranks products by revenue to reveal the largest contributors in the current filter context.
 
-### 4. Gross Margin by Sales Channel
-A column chart comparing gross margin percentages across sales channels to evaluate channel-level profitability.
+### Gross Margin by Sales Channel
+Compares gross-margin percentages across channels to explore differences in profitability.
 
-### 5. Sales by Region
-A horizontal bar chart comparing revenue across regions to identify leading markets.
+### Sales by Region
+Compares revenue across regions to identify stronger markets in the displayed data.
 
-### Interactive Filters
+## Interactive filters
 
 The dashboard includes slicers for:
+
 - Quarter
-- Month Name
-- Product Category
+- Month name
+- Product category
 - Country
 
-These filters allow users to explore the metrics and visualizations for different reporting periods, product categories, and markets.
+Use the slicers to explore how KPIs and charts change for different periods, categories, and markets.
 
-## Tools & Technologies
+## Tools & technologies
 
-- Microsoft Power BI
-- Power Query
-- DAX
-- Microsoft Excel
-- Data Visualization
-- Business Intelligence
+- **Microsoft Power BI Desktop** — report and dashboard development
+- **Power Query** — data transformation
+- **DAX** — KPI and analytical measures
+- **Microsoft Excel** — source data
 
-## Project Files
+## Project files
 
-| File | Description |
+| File | Purpose |
 |---|---|
-| `Executive Sales Performance Dashboard.pbix` | Power BI dashboard and report |
+| `Executive Sales Performance Dashboard.pbix` | Editable Power BI report |
 | `Executive Sales Performance Dashboard.png` | Dashboard preview image |
 | `Sales_Data.xlsx` | Source sales dataset |
 
-## How to Use
+## How to open the project
 
 1. Download or clone this repository.
-2. Install Microsoft Power BI Desktop.
-3. Open `Executive Sales Performance Dashboard.pbix` in Power BI Desktop.
-4. If Power BI requests the source file, update the data source path to the downloaded `Sales_Data.xlsx`.
-5. Refresh the data if required.
-6. Use the slicers to interact with the dashboard.
+2. Open `Executive Sales Performance Dashboard.pbix` in Power BI Desktop.
+3. If Power BI reports a missing source, point the data source to `Sales_Data.xlsx` in the repository folder.
+4. Refresh the data if prompted, then use the slicers to explore the report.
 
-## Business Value
+## Skills demonstrated
 
-This dashboard demonstrates how sales data can be transformed into an executive-friendly reporting experience. It brings important performance indicators into one view and supports comparisons across time, products, channels, and regions.
+- Sales performance analysis
+- KPI design and reporting
+- Revenue and gross-profit analysis
+- Gross-margin analysis
+- Product, channel, and regional comparisons
+- Time-trend analysis
+- Interactive business intelligence reporting
+- Data visualization and data storytelling
+
+## Scope & limitations
+
+This is a portfolio dashboard built from the included sales dataset. It demonstrates descriptive reporting and interactive analysis; the figures should not be interpreted as current performance for a real company.
 
 ## Author
 
-**Bhaskar Nakka**
+**Bhaskar Nakka** — Data Analyst | SQL · Python · Excel · Tableau · Power BI
 
 - GitHub: [bhaskar-nb](https://github.com/bhaskar-nb)
-- LinkedIn: [Bhaskar Nakka](https://www.linkedin.com/in/bhaskar-nakka/)
+- LinkedIn: [Bhaskar Nakka](https://www.linkedin.com/in/bhaskar-nakka-43a701259/)
+- Email: [bn7740401@gmail.com](mailto:bn7740401@gmail.com)
